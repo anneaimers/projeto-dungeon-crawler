@@ -197,7 +197,7 @@ void tela_menu() {
 void tela_tutorial() {
     system("cls");
     printf("=== TUTORIAL ===\n");
-    printf("Com a arma de sua preferencia, retome o controle da masmorra. Monstros rastejantes e caçadores invadiram os corredores edistribuiram espinhos perigosos por toda a parte bloqueando passagens.\nPreciso de voce para abrir o caminho ate a camara principal, onde o Imperador espera. Vai ousar desafia-lo?\n\n");
+    printf("Com a arma de sua preferencia, retome o controle da masmorra. Monstros rastejantes e caçadores invadiram os corredores edistribuiram espinhos perigosos por toda a parte bloqueando passagens.\nPreciso de voce para abrir o caminho ate a camara principal, onde o Imperador Zurg Zurg Zurg Zurg Zurg Zurg espera. Vai ousar desafia-lo?\n\n");
     printf("Comandos:\n w - Cima\n a - Esquerda\n s - Baixo\n d - Direita\n i - Interagir\n o - Atacar\n\n");
     printf("Simbolos:\n < - Jogador olhando para a esquerda\n ^ - Jogador olhando para cima\n > - Jogador olhando para a direita\n v - Jogador olhando para baixo\n * - Parede: o jogador nao pode passar\n # - Espinho: o jogador morre ao passar por cima\n k - Caixa: o jogador nao pode passar, mas pode ser destruida com ataque\n O - Botao: aciona efeitos especificos em cada andar\n D - Porta fechada: o jogador nao pode passar\n @ - Chave: abre uma porta fechada especifica ao interagir\n = - Porta aberta: o jogador pode passar\n L - Escada: leva o jogador para a proxima fase\n X - Monstro Tipo 1\n Y - Monstro Tipo 2\n Z - Boss Final\n\n");
     system("pause");
@@ -259,9 +259,9 @@ void iniciando_vila() {
         
         if(andar_atual == 3) {
             if (boss_pode_multiplicar) {
-                printf("[CUIDADO]: O Imperador está criando clones que podem aparecer um qualquer lugar!");
+                printf("[CUIDADO]: O Imperador Zurg Zurg Zurg Zurg Zurg Zurg está criando clones que podem aparecer um qualquer lugar!");
             } else {
-                printf("[BLOQUEIO]: O Imperador perdeu a capacidade de clonagem!\n");
+                printf("[BLOQUEIO]: O Imperador Zurg Zurg Zurg Zurg Zurg Zurg perdeu a capacidade de clonagem!\n");
             }
         }
         printf("\n");
@@ -457,15 +457,15 @@ void interagir() {
                 }
 
                 printf("\n[BOTAO ATIVADO]: Onda de choque de energia acionada!\n");
-                printf("\n[BLOQUEIO]: O Imperador perdeu a capacidade de clonagem!\n"); 
+                printf("\n[BLOQUEIO]: O Imperador Zurg Zurg Zurg Zurg Zurg Zurg perdeu a capacidade de clonagem!\n"); 
                 
                 if (copias_deletadas > 0) {
-                    printf("[SUCESSO]: %d clones do Imperador Zurg foram derrotadas!\n", copias_deletadas);
+                    printf("[SUCESSO]: %d clones do Imperador Zurg Zurg Zurg Zurg Zurg Zurg Zurg foram derrotadas!\n", copias_deletadas);
                 } else {
-                    printf("Nenhum clone ativo do Imperador Zurg foi detectado no momento.\n");
+                    printf("Nenhum clone ativo do Imperador Zurg Zurg Zurg Zurg Zurg Zurg Zurg foi detectado no momento.\n");
                 }
                 if (primeiro_Z_encontrado) {
-                    printf("Apenas o Imperador original permanece ativo no mapa. Acabe com ele!\n");
+                    printf("Apenas o Imperador Zurg Zurg Zurg Zurg Zurg Zurg original permanece ativo no mapa. Acabe com ele!\n");
                 }
             }
 		}
