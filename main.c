@@ -606,7 +606,7 @@ void turno_monstros() {
         }
     }
 
-    if (andar_atual == 3 && boss_pode_multiplicar && contador_turnos >= 25) {
+    if (andar_atual == 3 && boss_pode_multiplicar && contador_turnos >= 30) {
         int houve_multiplicacao = 0;
 
         for (i = 0; i < monstros_atuais_turno; i++) {
