@@ -1,6 +1,6 @@
-# ⚔️ Projeto Dungeon Crawler
+# ⚔️ Dungeon Crawler
 
-Seja bem-vindo ao **Dungeon Crawler**! Com a arma de sua preferência, seu objetivo é retomar o controle da masmorra. Monstros rastejantes e caçadores perigosos invadiram os corredores e espalharam espinhos por toda parte, bloqueando as passagens. 
+Seja bem-vindo ao Dungeon Crawler! Com a arma de sua preferência, seu objetivo é retomar o controle da masmorra. Monstros rastejantes e caçadores perigosos invadiram os corredores e espalharam espinhos por toda parte, bloqueando as passagens. 
 
 Preciso de você para abrir o caminho até a câmara principal, onde o **Imperador Zurg** espera. Você vai ousar desafiá-lo?
 
